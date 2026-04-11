@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Modal from "./messy/Modal";
+// import Modal from "./messy/Modal";
 import Modal from "./with-pattern/modal/Modal";
 import AccordionDemo from "./with-pattern/accordion/AccordionDemo";
 import "./App.css";
