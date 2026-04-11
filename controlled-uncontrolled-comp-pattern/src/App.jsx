@@ -13,17 +13,17 @@ import UncontrolledFormNoRef from "./uncontrolled/UncontrolledFormNoRef";
 function App() {
   return (
     <div className="flex flex-col items-center">
-      <Counter />
+      {/* <Counter />
       <AutoFocusInput />
       <CounterWithRef />
 
-      <FeedbackForm />
+      <FeedbackForm /> */}
 
       <ControlledFeedbackForm />
 
-      <UncontrolledFeedbackForm />
+      {/* <UncontrolledFeedbackForm />
 
-      <UncontrolledFormNoRef />
+      <UncontrolledFormNoRef /> */}
     </div>
   );
 }
