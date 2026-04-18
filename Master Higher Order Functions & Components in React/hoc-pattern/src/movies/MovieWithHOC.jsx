@@ -9,6 +9,7 @@ import MovieAnalytics from "./MovieAnalytics";
 const MovieListWithData = withDataFetching(MovieList);
 const MovieAnalyticsWithData = withDataFetching(MovieAnalytics);
 
+
 export default function MovieWithHOC() {
   return (
     <div className="max-w-lg mx-auto mt-10 space-y-6">
