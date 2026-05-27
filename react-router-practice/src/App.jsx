@@ -1,11 +1,11 @@
 import { Routes, Route } from "react-router-dom";
+import React from 'react'
 
 import MainLayout from "./layouts/MainLayout";
 
 import AdminLayout from "./layouts/AdminLayout";
 import AdminDashboard from "./pages/AdminDashboard";
 import Users from "./pages/Users";
-import Products from "./pages/Products";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -15,6 +15,9 @@ import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
 import Orders from "./pages/Orders";
+
+import Products from "./pages/Products";
+import ProductDetails from "./pages/ProductDetails";
 
 function App() {
 
@@ -47,6 +50,7 @@ function App() {
         <Route index element={<AdminDashboard />} />
         <Route path="users" element={<Users />} />
         <Route path="products" element={<Products />} />
+        <Route path="products/:id" element={<ProductDetails />} />
       </Route>
 
     </Routes>
